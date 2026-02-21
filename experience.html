@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Experience — Jinjing Chen</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet"/>
+  <style>
+/* basic styles copied from index.html for consistency */
+:root{--ink:#1c1c2e;--paper:#f8f8ff;--blue:#2c4a8c;--muted:#5a6380;--rule:#cdd3e8}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:'EB Garamond',Georgia,serif;font-size:18px;line-height:1.75}
+.wrapper{max-width:980px;margin:0 auto;padding:0 2rem}
+nav{border-bottom:1px solid var(--rule);padding:1rem 0;background:rgba(248,248,255,0.95)}
+nav .wrapper{display:flex;align-items:center}
+.nav-name{font-family:'DM Mono',monospace;color:var(--blue);text-transform:uppercase;font-weight:700}
+nav ul{margin-left:auto;display:flex;gap:1.2rem;list-style:none}
+nav a{font-family:'DM Mono',monospace;color:var(--muted);text-decoration:none}
+.section-header{display:flex;align-items:baseline;gap:1.2rem;margin-bottom:1rem}
+.exp-item{display:grid;grid-template-columns:160px 1fr;gap:1rem;padding:1.4rem 0;border-bottom:1px dashed var(--rule)}
+.edu-item{display:grid;grid-template-columns:160px 1fr;gap:1rem;padding:1.2rem 0;border-bottom:1px dashed var(--rule)}
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="wrapper">
+      <span class="nav-name">Jinjing Chen</span>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="wrapper">
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="section-header">
+        <h2>Research Experience</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-date">Sep. 2025 – Present</div>
+        <div>
+          <div class="exp-role">Research Assistant</div>
+          <div class="exp-org">LSE International Growth Centre</div>
+          <div class="exp-desc">Developing and validating machine-learning models for crop-residue burning detection using high-temporal multispectral satellite data (Sentinel-2, PlanetScope, VIIRS). Applying remote sensing analytics, spectral index design, and Google Earth Engine with cloud computing and HPC-enabled batch processing.</div>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-date">Oct. 2024 – Jul. 2025</div>
+        <div>
+          <div class="exp-role">Research Assistant</div>
+          <div class="exp-org">Dr. Kathryn Baragwanath — "Playing with Fire: The Environmental Consequences of an Electorally Motivated License to Burn"</div>
+          <div class="exp-desc">Modelled and visualised fire dispersion paths using the HYSPLIT atmospheric transport model in Python and R on high-performance computing infrastructure. Structured spatial data into standardised, research-ready formats.</div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <div class="section-header">
+        <h2>Education</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-date">Feb. 2022 – Present</div>
+        <div>
+          <div class="edu-degree">Ph.D. in Economics</div>
+          <div class="edu-school">University of Melbourne</div>
+          <div class="edu-detail">Supervisors: Dr. Leslie Martin · Dr. Sebastian Tebbe · Dr. Kathryn Baragwanath</div>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-date">Sep. 2019 – Jun. 2021</div>
+        <div>
+          <div class="edu-degree">M.Sc. in Agricultural Economics</div>
+          <div class="edu-school">National Taiwan University</div>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="wrapper">&copy; 2026 Jinjing Chen</div>
+  </footer>
+</body>
+</html>
