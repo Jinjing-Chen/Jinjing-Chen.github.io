@@ -6,7 +6,8 @@ website: https://jinjingchen.github.io
 
 ## About
 
-This is my personal academic website showcasing my research, teaching experience, and CV. I am currently a Ph.D. candidate supervised by Dr. Leslie Martin, Dr. Sebastian Tebbe, and Dr. Kathryn Baragwanath, with research focused on vehicle markets, electric vehicles, and the environmental impacts of crop-residue burning.
+I am currently a Ph.D. candidate in Economics at the University of Melbourne. I am supervised by Dr. Leslie Martin, Dr. Sebastian Tebbe, and Dr. Kathryn Baragwanath. My research lies in environmental and energy economics, with a focus on environmental policy, transportation markets, and air pollution. My research studies how transportation policies shape environmental outcomes and welfare. I combine econometric models with atmospheric transport modeling to measure the environmental and distributional effects of electric vehicle adoption.
+I also analyze vehicle policy design in Sweden and apply satellite data and remote sensing to quantify real-world environmental impacts.
 
 ## Research Interests
 
